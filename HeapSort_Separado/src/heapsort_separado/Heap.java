@@ -1,4 +1,4 @@
-package heapsortseparado;
+package heapsort_separado;
 
 /**
  * Implementa el concepto de Heap o Monticulo Binario, mediante generics.  El Heap puede ser 

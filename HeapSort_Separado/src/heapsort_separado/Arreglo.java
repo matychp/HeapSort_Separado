@@ -1,4 +1,4 @@
-package heapsortseparado;
+package heapsort_separado;
 
 /**
  *
@@ -37,12 +37,16 @@ public class Arreglo {
         }
     }
 
+    @Override
     public String toString() {
-        StringBuilder sr = new StringBuilder("");
-        for (Integer cadaT : unArreglo) {
-            sr.append(cadaT.toString()).append(", ");
+        StringBuilder sr = new StringBuilder("[ ");
+        for (int i = 0; i < unArreglo.length; i++) {
+            sr.append(unArreglo[i].toString());
+            if(i != unArreglo.length - 1){
+                sr.append(", ");
+            }
         }
-        sr.append("]");
+        sr.append(" ]");
         return sr.toString();
     }
 }

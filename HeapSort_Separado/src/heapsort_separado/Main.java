@@ -3,9 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package heapsortseparado;
+package heapsort_separado;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -14,9 +13,6 @@ import java.util.Scanner;
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Ingrese la cantidad de elementos del arreglo: ");
