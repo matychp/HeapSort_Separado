@@ -15,6 +15,10 @@ public class Arreglo {
         unArreglo = new Integer[unaCantidad];
     }
 
+    /**
+     * Genera un numero aleatorio entre 0 y el tamaño del vector,
+     * para cada una de las posiciones del arreglo ylos almacena.
+     */
     public void cargar() {
         for (int i = 0; i < unArreglo.length; i++) {
             unArreglo[i] = (int) (Math.random() * unArreglo.length);
@@ -37,6 +41,11 @@ public class Arreglo {
         }
     }
 
+    /**
+     * Muestra el contenido del arreglo.
+     * Empiezando por [ ], y cada objeto separado de una coma.
+     * @return 
+     */
     @Override
     public String toString() {
         StringBuilder sr = new StringBuilder("[ ");
