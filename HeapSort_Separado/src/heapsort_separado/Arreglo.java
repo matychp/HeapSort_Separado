@@ -8,9 +8,17 @@ public class Arreglo {
 
     private Integer unArreglo[];
 
+    /**
+     * Crea un arreglo de 100 elementos por defecto, usando la sobrecarga del mismo.
+     */
     public Arreglo() {
+        this(100);
     }
 
+    /**
+     * Crea un arreglo unidimensional de un tamaño recibido por parámetro.
+     * @param unaCantidad: el tamaño del arreglo a crear.
+     */
     public Arreglo(int unaCantidad) {
         unArreglo = new Integer[unaCantidad];
     }
